@@ -57,3 +57,30 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Mock Backend (JSON Server)
+
+This project uses [JSON Server](https://github.com/typicode/json-server) to simulate a backend API for development purposes.
+
+### Installing JSON Server
+
+If you don't have JSON Server installed globally, run:
+
+```bash
+npm install -g json-server
+```
+
+### Running JSON Server
+
+To start the mock backend, run:
+
+```bash
+json-server --watch db.json --port 3000
+```
+
+This will start a REST API at `http://localhost:3000/` using the `db.json` file in the project root.
+
+You can now interact with your mock backend while developing your Angular application.
+
+
