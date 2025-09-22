@@ -1,0 +1,118 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 5%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nav h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+h1 a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.nav .nav-search {
+  flex: 1;
+  display: flex;
+  max-width: 500px;
+  margin: 0 5%;
+  position: relative;
+}
+
+.nav .nav-search input {
+  flex: 1;
+  border: 2px solid blueviolet;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+  padding: 8px 12px;
+  outline: none;
+  font-size: 14px;
+  color: blueviolet;
+}
+
+.nav .nav-search button {
+  background-color: blueviolet;
+  color: white;
+  border: 2px solid blueviolet;
+  border-radius: 0 20px 20px 0;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.nav .nav-search button:hover {
+  background-color: indigo;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.nav ul li a:hover {
+  color: indigo;
+}
+
+.suggested-search {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  z-index: 10;
+  display: none;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.suggested-search.show {
+  display: flex !important;
+}
+
+.suggested-search li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.suggested-search li:last-child {
+  border-bottom: none;
+}
+
+.suggested-search li a {
+  color: blueviolet;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.suggested-search li:hover {
+  background-color: #f9f9f9;
+}
+

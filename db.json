@@ -1,0 +1,94 @@
+{
+  "seller": [
+    {
+      "id": "18b6",
+      "name": "mahamed mamdouh",
+      "email": "mahamed.mamdouh80@yahoo.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "4b91",
+      "name": "david",
+      "email": "david80@ygmail.com",
+      "password": "456321"
+    }
+  ],
+  "products": [
+    {
+      "name": "I phone 14",
+      "price": "100009",
+      "category": "mobile",
+      "color": "black",
+      "description": "An Apple Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": "9255"
+    },
+    {
+      "id": "aed6",
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
+    },
+    {
+      "id": "75a1",
+      "name": "Noise Smart Watch",
+      "price": "3000",
+      "category": "Watch",
+      "color": "black",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg"
+    }
+  ],
+  "users": [
+    {
+      "name": "david",
+      "email": "david@gmail.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "id": "188e",
+      "name": "Gmal",
+      "email": "Gmal@gmail.com",
+      "password": "456123789"
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": "f273"
+    },
+    {
+      "id": "9255",
+      "name": "I phone 14",
+      "price": "100009",
+      "category": "mobile",
+      "color": "black",
+      "description": "An Apple Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "productId": "9255",
+      "userId": "188e"
+    }
+  ],
+  "orders": [
+    {
+      "id": "6a22",
+      "email": "mada.8054@gmail.com",
+      "address": "mhamed",
+      "contact": "01066783189",
+      "totalPrice": 3100,
+      "userId": "188e"
+    }
+  ]
+}
